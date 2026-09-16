@@ -35,8 +35,8 @@ public:
 
 int main() {
 
-    Product p1(101, "Laptop", 55000);
-    Product p2(102, "Mobile", 30000);
+    Product p1(101, "BMW M4 Competition", 27500000);
+    Product p2(102, "PS 6", 150000);
 
     Product higherPrice = p1.comparePrice(p2);
 
